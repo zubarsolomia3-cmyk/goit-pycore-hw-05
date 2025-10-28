@@ -23,6 +23,7 @@ def caching_fibonacci():
     return fibonacci
 
 
+# тест
 fib = caching_fibonacci()
-print(fib(10)) 
-print(fib(15))
+print(fib(10))  # має вивести 55
+print(fib(15))  # має вивести 610
